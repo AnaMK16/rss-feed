@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RssFeedAggregator", "RssFeedAggregator\RssFeedAggregator.csproj", "{0D7D80D4-0138-4013-9BF8-2DEB555B2D43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rssFeed.Api", "rssFeed.Api\rssFeed.Api.csproj", "{A4E6E9DC-657B-47AD-9D38-B85E5396FF35}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D7D80D4-0138-4013-9BF8-2DEB555B2D43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D7D80D4-0138-4013-9BF8-2DEB555B2D43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D7D80D4-0138-4013-9BF8-2DEB555B2D43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D7D80D4-0138-4013-9BF8-2DEB555B2D43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4E6E9DC-657B-47AD-9D38-B85E5396FF35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4E6E9DC-657B-47AD-9D38-B85E5396FF35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4E6E9DC-657B-47AD-9D38-B85E5396FF35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4E6E9DC-657B-47AD-9D38-B85E5396FF35}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

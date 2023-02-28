@@ -1,0 +1,141 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/ana/RiderProjects/Solution2/rssFeed.Api/rssFeed.Api.csproj": {}
+  },
+  "projects": {
+    "/home/ana/RiderProjects/Solution2/RssFeedAggregator/RssFeedAggregator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ana/RiderProjects/Solution2/RssFeedAggregator/RssFeedAggregator.csproj",
+        "projectName": "RssFeedAggregator",
+        "projectPath": "/home/ana/RiderProjects/Solution2/RssFeedAggregator/RssFeedAggregator.csproj",
+        "packagesPath": "/home/ana/.nuget/packages/",
+        "outputPath": "/home/ana/RiderProjects/Solution2/RssFeedAggregator/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ana/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0-preview.1.23111.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.0-preview.1.23111.4, )"
+            },
+            "System.ServiceModel.Syndication": {
+              "target": "Package",
+              "version": "[8.0.0-preview.1.23110.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.404/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/ana/RiderProjects/Solution2/rssFeed.Api/rssFeed.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ana/RiderProjects/Solution2/rssFeed.Api/rssFeed.Api.csproj",
+        "projectName": "rssFeed.Api",
+        "projectPath": "/home/ana/RiderProjects/Solution2/rssFeed.Api/rssFeed.Api.csproj",
+        "packagesPath": "/home/ana/.nuget/packages/",
+        "outputPath": "/home/ana/RiderProjects/Solution2/rssFeed.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ana/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/ana/RiderProjects/Solution2/RssFeedAggregator/RssFeedAggregator.csproj": {
+                "projectPath": "/home/ana/RiderProjects/Solution2/RssFeedAggregator/RssFeedAggregator.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.404/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
